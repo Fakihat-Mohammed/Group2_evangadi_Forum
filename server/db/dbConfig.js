@@ -5,7 +5,7 @@ const db = mysql.createPool({
   host: "sql12.freesqldatabase.com",
   user: "sql12771336",
   password: process.env.DB_PASSWORD,
-  database: "evangadi-practice",
+  database: "sql12771336",
 });
 
 module.exports = db.promise();
